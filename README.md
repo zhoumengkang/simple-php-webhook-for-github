@@ -10,7 +10,8 @@ simple-php-webhook-for-github
 #####2.使用方法#####
 >参考 <https://github.com/blog/1778-webhooks-level-up><br>
 >1. 将hook.php放到您的服务器上,保证通过外网可以访问到。<br>
->2. 在服务器上安装git（`git --version`查看是否有安装git，如果没有安装，通过`yum install git`即可）。<br>
+>2. 在服务器上安装git<br>
+    `git --version`查看是否有安装git，如果没有安装，通过`yum install git`即可。<br>
 >3. 点击进入某个项目的控制面板（settings），然后在（webhooks）里面添加这个脚本的url地址。<br>
 
 >以上步骤操作完毕之后，就可以通过本地push代码到github上，然后通过控制面板的触发记录来查看返回的信息,以便于做相应的调试。
